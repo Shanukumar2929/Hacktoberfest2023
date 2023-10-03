@@ -49,7 +49,7 @@ i:hover {
     width: 100%;
     padding-left: 24px;
     padding-right: 24px;
-    color:red;
+    color:red
 }
 
 .d-flex {
@@ -378,6 +378,9 @@ li{
     /* Efek bayangan saat dihover */
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
     /* Efek transisi */
+    /* added color on hover */
+    background: rgb(248,241,244);
+background: radial-gradient(circle, rgba(248,241,244,1) 0%, rgba(148,233,232,1) 38%, rgba(148,233,232,1) 90%);
 }
 
 /* Efek Hover pada Label */
